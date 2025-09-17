@@ -177,7 +177,7 @@ nav ul li a:hover::before {
     display:inline-block;
     background-color: black;
     color: #f400ff;
-    padding: 100px 400px;
+    padding: 100px 100px;
     border: white;
     border-radius: 5px;
     text-decoration: none;
