@@ -111,10 +111,10 @@ nav ul li a::before {
 nav ul li a:hover::before {
     transform: scaleX(1); /* Show the underline on hover */
 }
- @media (max-width: 768px) { 
+/*  @media (max-width: 768px) { 
   .container {
     padding: 0 10px; 
-  }
+  } */
   
 /* Hero Section */
 .hero {
