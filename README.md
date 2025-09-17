@@ -1,1 +1,1 @@
-[CLICK HERE](https://github.com/prabirchakravarty90-hue/saloon.blackandwhite/new/main) to use the salon website
+[Click Here](https://prabirchakravarty90-hue.github.io/saloon.blackandwhite/) to use the salon website
