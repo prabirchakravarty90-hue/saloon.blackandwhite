@@ -111,7 +111,10 @@ nav ul li a::before {
 nav ul li a:hover::before {
     transform: scaleX(1); /* Show the underline on hover */
 }
-
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
 /* Hero Section */
 .hero {
     background-image: url('hero-image.jpg');
@@ -174,11 +177,11 @@ nav ul li a:hover::before {
     display:inline-block;
     background-color: black;
     color: #f400ff;
-    padding: 10px 150px;
+    padding: 10px 40px;
     border: white;
     border-radius: 5px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     transition: background-color 0.23s ease;
 }
 
