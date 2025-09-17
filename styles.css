@@ -1,0 +1,616 @@
+/* Reset styles */
+p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    width: 100%; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* Header */
+header {
+    background-color:white; /* Change background color to white */
+    color: #000; /* Change text color to black */
+    padding: 00px 0;
+    text-align: center;
+}
+
+
+
+
+.logo {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); /* Apply gradient overlay */
+    padding: 0px; /* Adjust padding as needed */
+}
+
+.logo img {
+    max-width: 200px; /* Adjust width as needed */
+    height: 100px; /* Maintain aspect ratio */
+}
+
+/*
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000; /* Change link color to black */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+*/
+
+
+/* Navigation Menu */
+nav {
+    text-align: center; /* Center align the navigation items */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Display navigation items inline-block */
+    margin-right: 20px; /* Add space between items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+nav ul li a {
+    color: black; /* Text color for navigation links */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold; /* Make font bold */
+    text-transform: uppercase; /* Uppercase text */
+    padding: 10px 15px; /* Add padding for better click area */
+    position: relative; /* Positioning for the hover effect */
+}
+
+nav ul li a:hover {
+    color: #e809f6; /* Change text color on hover */
+}
+
+/* Animated underline effect on hover */
+nav ul li a::before {
+    content: ''; /* Create an empty pseudo-element */
+    position: absolute; /* Position relative to the parent anchor */
+    bottom: 0; /* Align to the bottom */
+    left: 0; /* Start from the left */
+    width: 100%; /* Full width */
+    height: 2px; /* Height of the underline */
+    background-color: #ff4d94; /* Color of the underline */
+    transform: scaleX(0); /* Initially hidden */
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+nav ul li a:hover::before {
+    transform: scaleX(1); /* Show the underline on hover */
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    color: black;
+    padding: 300px 200px;
+    font-weight: bold;
+}
+
+
+
+
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    margin-left: 700px;
+    text-align: center;
+    font-weight: bold;
+    font-weight: 900;
+
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+
+*/
+
+.hero {
+    display: flex; /* Use flexbox to align items */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text */
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px; /* Adjust as needed */
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px; /* Adjust as needed */
+}
+
+
+
+
+
+
+.btn {
+    display:inline-block;
+    background-color: black;
+    color: #f400ff;
+    padding: 10px 150px;
+    border: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.23s ease;
+}
+
+.btn:hover {
+    background-color: #E7D2CC;
+}
+
+/* Services Section 
+
+
+.services {
+    background-color: #1a1a1a; 
+    color: #fff;
+    padding: 80px 50px;
+    text-align: center;
+    width: 100%; 
+    display: flex;
+}
+
+.service {
+    background-color: #000000; 
+    border-radius: 15px;
+    padding: 80px ;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: block; 
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+.service:hover {
+    transform: scale(1.2); 
+    transition: transform 0.3s ease; 
+}
+
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f400ff;
+    display: flex;
+    text-align: center;
+}
+
+
+
+.service p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ccc;
+    display: flex;
+}
+
+*/
+
+
+/* Services Section */
+
+
+
+
+/* Services Section */
+
+
+
+/* Services Section */
+
+
+
+
+/* Services Section */
+/* Services Section */
+.services {
+    background-color: #1a1a1a; /* Dark grey background */
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+    display: flex; /* Use flexbox */
+}
+
+.service {
+    flex-grow: 1; /* Grow to fill available space */
+    background-color: #000000; /* Darker shade of grey */
+    border-radius: 15px;
+    padding: 40px;
+    margin: 0 10px; /* Add margin between items */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light grey shadow */
+    transition: transform 0.3s ease-in-out; /* Add smooth transition */
+    text-align: center;
+}
+
+.service:hover {
+    transform: scale(1.05); /* Add hover effect */
+}
+
+.services h2 {
+    margin-bottom: 20px; /* Add margin bottom to create gap */
+}
+
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f400ff;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ccc; /* Light grey text color */
+}
+
+
+
+
+/* Adjust the image size for the services section */
+.service img {
+    width: 50%; /* Adjust the width to take up less space */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Add border radius for rounded corners */
+    margin-bottom: 20px; /* Add some space below the image */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Section */
+.about {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 13px 0;
+
+}
+
+
+.about h1 {
+    font-size: 24px;
+    line-height: 1.6;
+    padding: 25px 0;
+    color:#f400ff;
+
+}
+
+.about h3 {
+    font-size: 24px;
+    line-height: 1.6;
+    padding: 25px 0;
+    color:#f400ff;
+
+}
+
+*/
+
+/* Gallery Section */
+.gallery {
+    background-color: #1a1a1a;
+    color: #f400ff ;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-images img {
+    width: 250px; /* Adjust the width as needed */
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s ease; /* Add transition */
+}
+
+.gallery-images img:hover {
+    transform: scale(1.8); /* Zoom in on hover */
+}
+
+/* Landscape image */
+.landscape-image {
+    width: 400px; /* Adjust the width for landscape images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+/* Contact Section */
+.contact {
+    background-color: #1a1a1a ;
+    color: #f400ff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #f400ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #f400ff;
+}
+
+
+.contact-info {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Spread items evenly */
+}
+
+.location {
+    flex-basis: calc(50% - 10px); /* Adjust the width of each location */
+    padding: 0 5px; /* Add some spacing between locations */
+    text-align: center;
+    color: #f400ff; /* Match the color of the heading */
+}
+
+.contact h2 {
+    margin-bottom: 20px; /* Adjust the margin bottom as needed */
+}
+
+
+
+
+
+
+
+
+
+/* Footer 
+footer {
+    background-color: white; 
+    color: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+
+*/
+
+
+
+
+/* Footer */
+footer {
+    background-color: white; /* Change background color */
+    color: #f400ff; /* Change text color */
+    padding: 10px 0; /* Increase padding for better spacing */
+    text-align: center;
+}
+
+.footer-nav {
+    margin-top: 0px; /* Add some space between footer content */
+}
+
+.footer-nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-nav li a {
+    color: #f400ff; /* Change link color */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.social-links img:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+
+/* Our Salons Section */
+.our-salons {
+    background-color: #333; /* Dark grey background */
+    color: white;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.container {
+     /*display: flex;*/
+     justify-content: center; 
+     align-items: center;
+}
+
+.salons-info {
+    /*display: flex;*/
+}
+
+.salon-location {
+    flex: 1;
+    padding-right: 1px;
+    
+}
+
+.salon-images {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.salon-images img {
+    width: calc(33.33% - 10px); /* 3 images per row with spacing */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.salon-location h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:#f400ff;
+}
+
+.salon-location ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.salon-location ul li {
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+}
+
+
+.service-container {
+    /* Add your custom styles here */
+    display: flex;
+     max-width: 00px;
+}
+
+
+
+.price-list h2 {
+    background-color: black; /* Change background color */
+    color: #f400ff; /* Change text color */
+    text-align: center;
+    padding: 10px; /* Add padding to the heading */
+}
+
+/* Style for image container */
+.image-container {
+    margin-top: 20px; /* Add margin between images */
+    overflow: hidden; /* Hide overflowing content */
+    background-color: black; /* Set background color */
+}
+
+/* Style for images */
+.image-container img {
+    display: block; /* Ensure images are displayed as blocks */
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center images horizontally */
+}
+
+
+
+html, body {
+    background-color: black; /* Set background color for the entire page */
+}
